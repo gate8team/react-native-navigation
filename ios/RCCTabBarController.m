@@ -41,7 +41,7 @@
       if ([topViewController isKindOfClass:[RCCViewController class]]) {
         RCCViewController *topRCCViewController = (RCCViewController*)topViewController;
         topRCCViewController.commandType = COMMAND_TYPE_BOTTOME_TAB_SELECTED;
-        topRCCViewController.commandType = COMMAND_TYPE_BOTTOME_TAB_SELECTED;
+        topRCCViewController.timestamp = [RCTHelpers getTimestampString];
       }
     }
   } else {
